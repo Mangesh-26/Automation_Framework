@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Patient_Self_Deposit_Full_Consume_Test"> 
+<parameter name="PrimaryIdNumber12" value="NO90878097"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumber12" value="NI987678967"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Noel"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotes" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+
+<parameter name="DepositAmountPar" value="5000"/>
+<parameter name="DepositRemarksPar" value="Testing"/>
+<parameter name="IDNoPar" value="897897897"/>
+<parameter name="PaymentRemarksPar" value="Received"/>
+<parameter name="ServiceNamePar" value="CT Brain"/>
+<parameter name="ServiceName2Par" value="MRI Brain"/>
+<classes>
+<class name="BillingTest.OP_Patient_Self_Deposit_Partial_Consume_Test">
+</class>
+</classes>
+</test>
+</suite>

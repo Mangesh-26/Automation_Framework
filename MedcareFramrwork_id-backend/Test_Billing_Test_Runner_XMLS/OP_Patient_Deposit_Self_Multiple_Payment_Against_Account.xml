@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Account_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Account_Test">
+<parameter name="PrimaryIdNumberPar" value="MUR7878980"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumberPar" value="AD9878978"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Murray"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotes" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+
+<parameter name="DepositAmountPar" value="5000"/>
+<parameter name="DepositRemarksPar" value="Testing"/>
+<parameter name="CashPar" value="3000"/>
+<parameter name="ChequeAmountPar" value="1000"/>
+<parameter name="ChequeNumberPar" value="8937989798"/>
+<parameter name="BatchNoPar" value="8498089776"/>
+<parameter name="CardAmountPar" value="1000"/>
+<parameter name="CardNumberPar" value="987970979"/>
+<parameter name="ApprovalCodePar" value="893786"/>
+<parameter name="ReceivedFromPar" value="Admin"/>
+<parameter name="IDNoPar" value="98739790"/>
+<parameter name="PaymentRemarksPar" value="Testing"/>
+
+<classes>
+<class name="BillingTest.OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Account_Test">
+</class>
+</classes>
+</test>
+</suite>

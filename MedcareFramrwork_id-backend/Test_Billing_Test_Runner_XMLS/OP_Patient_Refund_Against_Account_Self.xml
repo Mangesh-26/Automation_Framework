@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OP_Patient_Self_Refund_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Patient_Self_Refund_Test">
+<parameter name="PrimaryIdNumber12" value="ZC98796989"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumber12" value="AD9878978"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Zachary"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotesPar" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+<parameter name="DepositAmountPar" value="5000"/>
+<parameter name="DepositRemarksPar" value="Testing"/>
+<parameter name="IDNoPar" value="897897897"/>
+<parameter name="PaymentRemarksPar" value="Received"/>
+
+
+<classes>
+<class name="BillingTest.OP_Patient_Self_Refund_Against_Account_Test">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Existing_Patient_OPCharge_WithDiscount_Save_Self_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="Existing_Patient_OPCharge_WithDiscount_Save_Self_Test(failed)">
+    <parameter name="PrimaryIdNumber12" value="ER987989"/>
+    <parameter name="DateOfBirthPar" value="05/05/1994"/>
+    <parameter name="SecondaryIdNumber12" value="20136547898569"/>
+    <parameter name="PostCodePar12" value="897987"/>
+    <parameter name="WorkFaxpar" value="456464564"/>
+    <parameter name="HomeContactNopar" value="2047898569"/>
+    <parameter name="EncounterRemarksPar" value="Testing"/>
+    <parameter name="WorkContactNopar" value="20137898569"/>
+    <parameter name="WorkFromPar" value="10/11/2023"/>
+    <parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+    <parameter name="ExparyDatePar" value="01/01/2036"/>
+    <parameter name="MobileNumberPar" value="98765756546"/>
+    <parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+    <parameter name="ServiceName2Par" value="MRI Brain"/>
+    <parameter name="PatientNotes" value="Notes"/>
+    <parameter name="PostCodePar" value="987309"/>
+    <parameter name="PersonalFaxpar" value="756756"/>
+    <parameter name="ResAddPar" value="Pune"/>
+    <parameter name="ServiceNamePar" value="CT Brain"/>
+    <parameter name="BirthPlacePar" value="Pune"/>
+    <parameter name="MotherNamePar" value="SHOBHA"/>
+    <parameter name="FullNamePar" value="Eric"/>
+    <parameter name="ContactNumberPar" value="9678567567"/>
+    <parameter name="EmploymentNoPar" value="27898569"/>
+    <parameter name="ResidentialAddressPar" value="Pune"/>
+    <classes>
+      <class name="BillingTest.Existing_Patient_OPCharge_WithDiscount_Save_Self_Test">
+        <methods>
+          <include name="afterTest"/>
+          <include name="startBrowser"/>
+          <include name="FailedScreenShot"/>
+          <include name="TC_02_Existing_Patient_OP_Charge_With_Discount_Save_Self" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BillingTest.Existing_Patient_OPCharge_WithDiscount_Save_Self_Test -->
+    </classes>
+  </test> <!-- Existing_Patient_OPCharge_WithDiscount_Save_Self_Test(failed) -->
+</suite> <!-- Failed suite [Existing_Patient_OPCharge_WithDiscount_Save_Self_Test] -->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="11092023"/>
+  <test thread-count="5" name="Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount(failed)">
+    <parameter name="DesignationPar" value="QA"/>
+    <parameter name="ContactNoPar" value="9503238070"/>
+    <parameter name="IdentificationNOPar" value="1236540"/>
+    <parameter name="HolderNamePar" value="SONYA"/>
+    <parameter name="DOBPar" value="05/07/1994"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="BillEstimationPar" value="1234"/>
+    <parameter name="CustomerNamePar" value="BABALU"/>
+    <parameter name="LengthPar" value="3"/>
+    <parameter name="AdmissionRemarksPar" value="All Done good"/>
+    <parameter name="ReferralRemarksPar" value="Overall good"/>
+    <parameter name="GLRefNOPar" value="98798478"/>
+    <parameter name="PriNumberPar" value="8498"/>
+    <parameter name="LengthOfStayPar" value="2"/>
+    <parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+    <parameter name="MRNPar" value="HISCKLMRN231111631"/>
+    <parameter name="MobilePar" value="9503238070"/>
+    <parameter name="PolicyDatePar" value="07/12/2023"/>
+    <parameter name="GLRemarksPar" value="Testing"/>
+    <parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+    <parameter name="PolicyNoPar" value="987897987"/>
+    <parameter name="NotesPar" value="Testing"/>
+    <parameter name="DOAPar" value="03/11/2023"/>
+    <parameter name="ExpiryDatePar" value="01/01/2024"/>
+    <parameter name="AddressPar" value="Pune"/>
+    <parameter name="PatientNotesPar" value="Blood require"/>
+    <parameter name="NamePar" value="Sandra"/>
+    <parameter name="ZipCodePar" value="799098"/>
+    <parameter name="PhoneNumberPar" value="9921084463"/>
+    <parameter name="PatientNamePar" value="Kuntum"/>
+    <parameter name="ContactNamePar" value="Akshay"/>
+    <parameter name="EmailPar" value="Patilaksh1994@gmail.com"/>
+    <parameter name="GLDatePar" value="07/12/2023"/>
+    <parameter name="CoverageAmountPar" value="50000"/>
+    <parameter name="GLAmountPar" value="50000"/>
+    <classes>
+      <class name="BillingTest_2.Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount">
+        <methods>
+          <include name="FailedScreenShot"/>
+          <include name="quitBrowser"/>
+          <include name="TC_05_Verify_User_Can_DO_GL_Approval_For_IP_Charges_And_IPD_BILL_Apply_Discount" invocation-numbers="0"/>
+          <include name="TC_03_User_Able_to_Do_ADTRegistartionForm" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="TC_02_User_Able_To_Do_AdmissionRequestform" invocation-numbers="0"/>
+          <include name="TC_04_Verify_User_Can_Fill_ADT_Admission_Form_With_Insurance" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BillingTest_2.Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount -->
+    </classes>
+  </test> <!-- Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount(failed) -->
+</suite> <!-- Failed suite [Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount] -->

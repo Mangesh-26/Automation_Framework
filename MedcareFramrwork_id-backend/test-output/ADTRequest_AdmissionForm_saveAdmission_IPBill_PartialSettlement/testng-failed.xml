@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="11092023"/>
+  <test thread-count="5" name="ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement(failed)">
+    <parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+    <parameter name="NotesPar" value="Testing"/>
+    <parameter name="IdentificationNOPar" value="1236540"/>
+    <parameter name="DOBPar" value="05/07/1994"/>
+    <parameter name="DOAPar" value="03/11/2023"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="ExpiryDatePar" value="01/10/2024"/>
+    <parameter name="BillEstimationPar" value="1234"/>
+    <parameter name="AddressPar" value="Pune"/>
+    <parameter name="PatientNotesPar" value="Blood require"/>
+    <parameter name="NamePar" value="Sandra"/>
+    <parameter name="LengthPar" value="3"/>
+    <parameter name="AdmissionRemarksPar" value="All Done good"/>
+    <parameter name="ReferralRemarksPar" value="Overall good"/>
+    <parameter name="ZipCodePar" value="799098"/>
+    <parameter name="PhoneNumberPar" value="9921084463"/>
+    <parameter name="PatientNamePar" value="Aisha"/>
+    <parameter name="PriNumberPar" value="8498"/>
+    <parameter name="LengthOfStayPar" value="2"/>
+    <parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+    <parameter name="MobilePar" value="9503238070"/>
+    <parameter name="EmailPar" value="medcare@hatiintl.com"/>
+    <classes>
+      <class name="BillingTest_2.ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement">
+        <methods>
+          <include name="TC_05_Verify_That_User_Is_Able_Create_IP_BILL_With_Partial_Settlement"/>
+          <include name="FailedScreenShot"/>
+          <include name="quitBrowser"/>
+          <include name="TC_02_User_Able_To_Do_AdmissionRequestform" invocation-numbers="0"/>
+          <include name="TC_03_User_Able_to_Do_ADTRegistartionForm" invocation-numbers="0"/>
+          <include name="TC_04_Verify_User_Can_Fill_ADT_Admission_Form" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- BillingTest_2.ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement -->
+    </classes>
+  </test> <!-- ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement(failed) -->
+</suite> <!-- Failed suite [ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement] -->

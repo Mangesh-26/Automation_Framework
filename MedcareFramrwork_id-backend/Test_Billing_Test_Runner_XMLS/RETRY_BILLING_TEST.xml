@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_BILLING_MODULE_03_TEST_SUITE">
+
+ <suite-files>  
+	               
+  <suite-file path="OPCharge_Advance_Search.xml"/>
+  <suite-file path="OP_Charge_Conversion_PayerToSelf.xml"/>
+  <suite-file path="IP_Bill_Advanced_Search.xml"/>
+  <suite-file path="OP_Patient_Refund_Self.xml"/>
+  <suite-file path="AdmissionRequest_AdmissionForm_saveAdmission_IP_charge_SaveCharges_IP_Bill_Full_SettlementOutstanding.xml"/>
+  <suite-file path="OP_Charge_Conversion_SelfToPayer.xml"/>
+  <suite-file path="GLApproval_OP.xml"/>
+  <suite-file path="IP_Bill_For_Self_Payer.xml"/>
+  <suite-file path="OP_FinalBill_Partial_Settlement_.xml"/>
+  <suite-file path="New_Registration_Encounter_creation_Debit_Note_Oustanding_Invoice.xml"/>
+  <suite-file path="Debit_Note_with_Grid_discount_Final_Bill_Full_Settlement.xml"/>
+  <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyDiscount_FullSettlement.xml"/>
+  <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyGroupDiscount_FullSettlement.xml"/>
+  <suite-file path="Existing_Patient_OPBill_FinalBill_Self_Test.xml"/>
+  <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Charges_Test.xml"/>
+  <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Bill_Test.xml"/> 
+  <suite-file path="AdmissionRequest_AdmissionForm_saveAdmission_IP_charge_IP_Bill_Full Settlement_Cash.xml"/>  
+  <suite-file path="NewRegistration_OPBill_FinalBill_Outstanding.xml"/>  
+  <suite-file path="Debit_Note_with_Grid_discount_Final_Bill_Full_Settlement.xml"/>  
+   
+   
+   <!-- <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+
+    </suite-files>
+    
+
+</suite>

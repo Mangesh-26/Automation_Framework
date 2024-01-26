@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPcharge_Save">
+<parameter name="Uesrid" value="11092023"/>
+<test name="OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPcharge_Save"> 	
+	
+<parameter name="PrimaryIdNumber12" value="11"/>
+<parameter name="ExparyDatePar" value="15/12/2026"/>
+<parameter name="SecondaryIdNumber12" value="203569875"/>
+<parameter name="SecondaryExparyDatePar" value="15/12/2026"/>
+<parameter name="FullNamePar" value="Rayna"/>
+<parameter name="DateOfBirthPar" value="15/02/1990"/>
+<parameter name="MotherNamePar" value="Shejal"/>
+<parameter name="PatientNotes" value="Patient has Blood suger"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="52369874"/>
+
+<parameter name="MobileNumberPar" value="7569206892"/>
+<parameter name="Emailpar" value="hati@intel.com"/>
+<parameter name="PersonalFaxpar" value="523641"/>
+<parameter name="WorkFaxpar" value="2036541"/>
+<parameter name="WorkContactNopar" value="8156896532"/>
+<parameter name="HomeContactNopar" value="7599633265"/>
+
+<parameter name="EmploymentNoPar" value="2036"/>
+<parameter name="WorkFromPar" value="15/02/2023"/>
+<parameter name="ContactNumberPar" value="8156896532"/>
+<parameter name="ResAddPar" value="Mumbai"/>
+<parameter name="PostCodePar12" value="75996"/>
+
+<parameter name="EncounterRemarksPar" value="Patient has favour"/>
+<parameter name="AddNotesPar" value="Patients not feeling well"/>
+<parameter name="NamePar" value="Sayyad"/>
+<parameter name="IdentificationNOPar" value="20236541"/>
+<parameter name="PhoneNoPar" value="9975223366"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="PostcodeParAdetailsPar" value="Pune"/>	   
+
+<parameter name="LengthOfStayPar" value="2"/>
+<parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+<parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+<parameter name="PatientNotesPar" value="Blood require"/>
+<parameter name="AdmissionRemarksPar" value="All Done good"/>
+<parameter name="ReferralRemarksPar" value="Overall good"/>
+<parameter name="NamePar" value="Sandra"/>
+<parameter name="IdentificationNOPar" value="1236540"/>
+<parameter name="PhoneNumberPar" value="9921084463"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="ZipCodePar" value="3265"/>
+
+<parameter name="PolicyNoPar" value="987897987"/>
+<parameter name="PolicyDatePar" value="01/12/2023"/>
+<parameter name="HolderNamePar" value="SONYA"/>
+<parameter name="CustomerNamePar" value="BABALU"/>
+<parameter name="GLRefNOPar" value="98798478"/>
+<parameter name="GLDatePar" value="06/12/2023"/>
+<parameter name="ExpiryDatePar" value="01/01/2035"/>
+<parameter name="GLAmountPar" value="10000"/>
+<parameter name="CoverageAmountPar" value="10000"/>
+<parameter name="ContactNamePar" value="Akshay"/>
+<parameter name="DesignationPar" value="QA"/>
+<parameter name="ContactNoPar" value="9503238070"/>
+<parameter name="GLRemarksPar" value="Testing"/>
+
+<classes>
+<class name="BillingTest_2.OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPcharge_Save">
+</class>
+</classes>
+</test>
+</suite>

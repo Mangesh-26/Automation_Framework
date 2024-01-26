@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OP_Company_Partial_Refund_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="OP_Company_Partial_Refund_Test(failed)">
+    <parameter name="RefundAmountPar" value="3000"/>
+    <parameter name="DepositAmountPar" value="5000"/>
+    <parameter name="DepositRemarksPar" value="Testing"/>
+    <classes>
+      <class name="BillingTest.OP_Company_Partial_Refund_Test">
+        <methods>
+          <include name="TC_01_Verify_Login"/>
+          <include name="FailedScreenShot"/>
+          <include name="startBrowser"/>
+          <include name="TC_02_User_Able_To_Do_Partial_Refund_Against_Company"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- BillingTest.OP_Company_Partial_Refund_Test -->
+    </classes>
+  </test> <!-- OP_Company_Partial_Refund_Test(failed) -->
+</suite> <!-- Failed suite [OP_Company_Partial_Refund_Test] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IP_Charge_Advanced_Search">
+<parameter name="Uesrid" value="11092023"/>
+<test name="AdvancedSearch"> 
+			
+<classes>
+<class name="BillingTest_2.IP_BILL_Advanced_Search_Test">
+</class>
+</classes>
+</test>
+</suite>

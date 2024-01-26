@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite (0)]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="OP_Patient_Self_Deposit_Full_Consume_Test(failed)">
+    <parameter name="PrimaryIdNumber12" value="GRM87989090"/>
+    <parameter name="DepositAmountPar" value="5000"/>
+    <parameter name="PatientNotes" value="Notes"/>
+    <parameter name="PostCodePar" value="987309"/>
+    <parameter name="DateOfBirthPar" value="05/05/1994"/>
+    <parameter name="PersonalFaxpar" value="756756"/>
+    <parameter name="ServiceNamePar" value="CT Brain"/>
+    <parameter name="IDNoPar" value="897897897"/>
+    <parameter name="SecondaryIdNumber12" value="AD9878978"/>
+    <parameter name="WorkFaxpar" value="456464564"/>
+    <parameter name="HomeContactNopar" value="2047898569"/>
+    <parameter name="WorkContactNopar" value="20137898569"/>
+    <parameter name="MotherNamePar" value="SHOBHA"/>
+    <parameter name="FullNamePar" value="Graeme"/>
+    <parameter name="SecondaryExparyDatePar" value="01/01/2025"/>
+    <parameter name="ExparyDatePar" value="01/01/2025"/>
+    <parameter name="MobileNumberPar" value="98765756546"/>
+    <parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+    <parameter name="ServiceName2Par" value="MRI Brain"/>
+    <parameter name="ResidentialAddressPar" value="Pune"/>
+    <parameter name="DepositRemarksPar" value="Testing"/>
+    <parameter name="PaymentRemarksPar" value="Received"/>
+    <classes>
+      <class name="BillingTest.OP_Patient_Self_Deposit_Full_Consume_Test">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="afterTest"/>
+          <include name="TC_02_OPCharge_Screen" invocation-numbers="0"/>
+          <include name="FailedScreenShot"/>
+        </methods>
+      </class> <!-- BillingTest.OP_Patient_Self_Deposit_Full_Consume_Test -->
+    </classes>
+  </test> <!-- OP_Patient_Self_Deposit_Full_Consume_Test(failed) -->
+</suite> <!-- Failed suite [TestSuite (0)] -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ADTRequest_AdmissionForm_saveAdmission_IPcharge_SaveCharges_IPBill_Full_Settlement_Cash]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="11092023"/>
+  <test thread-count="5" name="ADT_Request_IP_charge_Save_Charges_IP_Bill_ash(failed)">
+    <parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+    <parameter name="NotesPar" value="Testing"/>
+    <parameter name="IdentificationNOPar" value="1236540"/>
+    <parameter name="DOBPar" value="05/07/1994"/>
+    <parameter name="DOAPar" value="03/11/2023"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="ExpiryDatePar" value="01/10/2035"/>
+    <parameter name="BillEstimationPar" value="1234"/>
+    <parameter name="AddressPar" value="Pune"/>
+    <parameter name="PatientNotesPar" value="Blood require"/>
+    <parameter name="NamePar" value="Sandra"/>
+    <parameter name="LengthPar" value="3"/>
+    <parameter name="AdmissionRemarksPar" value="All Done good"/>
+    <parameter name="ReferralRemarksPar" value="Overall good"/>
+    <parameter name="ZipCodePar" value="799098"/>
+    <parameter name="PhoneNumberPar" value="9921084463"/>
+    <parameter name="PatientNamePar" value="Bella"/>
+    <parameter name="PriNumberPar" value="8498"/>
+    <parameter name="LengthOfStayPar" value="2"/>
+    <parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+    <parameter name="MobilePar" value="9503238070"/>
+    <parameter name="EmailPar" value="medcare@hatiintl.com"/>
+    <classes>
+      <class name="BillingTest_2.ADTRequest_AdmissionForm_saveAdmission_IPcharge_SaveCharges_IPBill_Full_Settlement_Cash">
+        <methods>
+          <include name="TC_05_Verify_That_User_Is_Able_to_Save_IP_Charges_Then_Create_IP_BILL_FullSettelment_Cash_For_Patient"/>
+          <include name="TC_04_Verify_User_Can_Fill_ADT_Admission_Form" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+          <include name="FailedScreenShot"/>
+          <include name="quitBrowser"/>
+        </methods>
+      </class> <!-- BillingTest_2.ADTRequest_AdmissionForm_saveAdmission_IPcharge_SaveCharges_IPBill_Full_Settlement_Cash -->
+    </classes>
+  </test> <!-- ADT_Request_IP_charge_Save_Charges_IP_Bill_ash(failed) -->
+</suite> <!-- Failed suite [ADTRequest_AdmissionForm_saveAdmission_IPcharge_SaveCharges_IPBill_Full_Settlement_Cash] -->

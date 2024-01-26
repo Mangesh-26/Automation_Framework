@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Billing_Company_Deposit_DebitCard_Save_Test">
+<parameter name="Uesrid" value="11092023"/>
+<test name="Billing_Company_Deposit_DebitCard_Save_Test"> 	
+<classes>
+<class name="BillingTest_2.Billing_Company_Deposit_DebitCard_Save_Test">	
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Existing_Patient_OPCharge_Save_Self_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="Existing_Patient_OPCharge_Save_Self_Test"> 
+<parameter name="PrimaryIdNumber12" value="SAM8988909"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumber12" value="20136547898569"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Samuel"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="BirthPlacePar" value="Pune"/>
+<parameter name="PatientNotes" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+<parameter name="EmploymentNoPar" value="27898569"/>
+<parameter name="WorkFromPar" value="10/11/2023"/>
+<parameter name="ContactNumberPar" value="9678567567"/>
+<parameter name="ResAddPar" value="Pune"/>
+<parameter name="PostCodePar12" value="897987"/>
+
+<parameter name="EncounterRemarksPar" value="Testing"/>
+<parameter name="ServiceNamePar" value="CT Brain"/>
+<parameter name="ServiceName2Par" value="MRI Brain"/>
+
+<classes>
+<class name="BillingTest.Existing_Patient_OPCharge_Save_Self_Test">
+</class>
+</classes>
+</test>
+</suite>

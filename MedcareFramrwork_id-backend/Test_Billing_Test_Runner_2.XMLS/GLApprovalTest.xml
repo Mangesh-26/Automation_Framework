@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+<parameter name="Uesrid" value="11092023"/>
+<test name="GLApprovalTest">
+<parameter name="PolicyNoPar" value="987897987"/>
+<parameter name="PolicyDatePar" value="01/12/2024"/>
+<parameter name="HolderNamePar" value="SONYA"/>
+<parameter name="CustomerNamePar" value="BABALU"/>
+<parameter name="GLRefNOPar" value="98798478"/>
+<parameter name="GLDatePar" value="06/12/2023"/>
+<parameter name="ExpiryDatePar" value="01/01/2024"/>
+<parameter name="GLAmountPar" value="10000"/>
+<parameter name="CoverageAmountPar" value="10000"/>
+<parameter name="ContactNamePar" value="Akshay"/>
+<parameter name="DesignationPar" value="QA"/>
+<parameter name="ContactNoPar" value="9503238070"/>
+<parameter name="GLRemarksPar" value="Testing"/>
+<classes>
+<class name="BillingTest_2.GLApprovalTest">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GL_Approval_Update">
+<parameter name="Uesrid" value="10931994"/>
+<test name="GL_Approval_Update">
+
+<parameter name="PrimaryIdNumberPar" value="MTI878899800"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumberPar" value="AD9878978"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Mitchell"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotesPar" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+
+<parameter name="PolicyNoPar" value="987897987"/>
+<parameter name="HolderNamePar" value="SONYA"/>
+<parameter name="CustomerNamePar" value="BABALU"/>
+<parameter name="GLRefNOPar" value="98798478"/>
+<parameter name="ExpiryDatePar" value="01/01/2036"/>
+<parameter name="GLAmountPar" value="10000"/>
+<parameter name="CoverageAmountPar" value="10000"/>
+<parameter name="ContactNamePar" value="Akshay"/>
+<parameter name="DesignationPar" value="QA"/>
+<parameter name="ContactNoPar" value="9503238070"/>
+<parameter name="GLRemarksPar" value="Testing"/>
+<classes>
+<class name="BillingTest.OP_GLApproval_Status_Approved_Test">
+</class>
+</classes>
+</test>
+</suite>

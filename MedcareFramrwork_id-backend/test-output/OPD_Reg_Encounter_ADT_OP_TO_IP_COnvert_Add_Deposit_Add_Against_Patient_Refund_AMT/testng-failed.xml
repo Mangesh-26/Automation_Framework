@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT]">
+  <parameter name="Uesrid" value="11092023"/>
+  <test thread-count="5" name="OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT(failed)">
+    <parameter name="PrimaryIdNumber12" value="11"/>
+    <parameter name="PostcodeParAdetailsPar" value="Pune"/>
+    <parameter name="IdentificationNOPar" value="1236540"/>
+    <parameter name="DateOfBirthPar" value="15/02/1990"/>
+    <parameter name="SecondaryIdNumber12" value="203569875"/>
+    <parameter name="PostCodePar12" value="75996"/>
+    <parameter name="WorkFaxpar" value="2036541"/>
+    <parameter name="HomeContactNopar" value="7599633265"/>
+    <parameter name="EncounterRemarksPar" value="Patient has favour"/>
+    <parameter name="AdmissionRemarksPar" value="All Done good"/>
+    <parameter name="ReferralRemarksPar" value="Overall good"/>
+    <parameter name="WorkContactNopar" value="8156896532"/>
+    <parameter name="WorkFromPar" value="15/02/2023"/>
+    <parameter name="LengthOfStayPar" value="2"/>
+    <parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+    <parameter name="SecondaryExparyDatePar" value="15/12/2024"/>
+    <parameter name="ExparyDatePar" value="15/12/2024"/>
+    <parameter name="PhoneNoPar" value="9975223366"/>
+    <parameter name="MobileNumberPar" value="7569206892"/>
+    <parameter name="Emailpar" value="hati@intel.com"/>
+    <parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+    <parameter name="PatientNotes" value="Patient has Blood suger"/>
+    <parameter name="PostCodePar" value="52369874"/>
+    <parameter name="PersonalFaxpar" value="523641"/>
+    <parameter name="ResAddPar" value="Mumbai"/>
+    <parameter name="NamePar" value="Sandra"/>
+    <parameter name="AddressPar" value="Pune"/>
+    <parameter name="PatientNotesPar" value="Blood require"/>
+    <parameter name="ZipCodePar" value="3265"/>
+    <parameter name="PhoneNumberPar" value="9921084463"/>
+    <parameter name="MotherNamePar" value="harry"/>
+    <parameter name="FullNamePar" value="Aleesya"/>
+    <parameter name="ContactNumberPar" value="8156896532"/>
+    <parameter name="EmploymentNoPar" value="2036"/>
+    <parameter name="ResidentialAddressPar" value="Pune"/>
+    <classes>
+      <class name="BillingTest_2.OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT">
+        <methods>
+          <include name="TC_04_Verify_User_Can_Fill_ADT_Admission_Form_Convert_Charges_For_OP_To_IP" invocation-numbers="0"/>
+          <include name="TC_05_Verify_Taht_User_is_Able_To_Add_Deposit_Against_Patient_And_Refund_Amount"/>
+          <include name="beforeTest"/>
+          <include name="quitBrowser"/>
+          <include name="TC_02_Verify_That_User_Is_Able_Fill_The_Basic_Information_To_Registration_Page" invocation-numbers="0"/>
+          <include name="FailedScreenShot"/>
+          <include name="TC_03_Verify_That_User_Is_Able_TO_Fill_Encounter_Details" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- BillingTest_2.OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT -->
+    </classes>
+  </test> <!-- OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT(failed) -->
+</suite> <!-- Failed suite [OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test(failed)">
+    <parameter name="DesignationPar" value="QA"/>
+    <parameter name="ContactNoPar" value="0984890090"/>
+    <parameter name="HolderNamePar" value="ABHAY"/>
+    <parameter name="DateOfBirthPar" value="05/05/1994"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="CustomerNamePar" value="ABHAY"/>
+    <parameter name="WorkFaxpar" value="456464564"/>
+    <parameter name="HomeContactNopar" value="2047898569"/>
+    <parameter name="GLRefNOPar" value="987897987"/>
+    <parameter name="IdentificationNoPar" value="834788998"/>
+    <parameter name="WorkContactNopar" value="20137898569"/>
+    <parameter name="SecondaryExparyDatePar" value="01/01/2025"/>
+    <parameter name="ExparyDatePar" value="01/01/2025"/>
+    <parameter name="MobileNumberPar" value="98765756546"/>
+    <parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+    <parameter name="GLRemarksPar" value="Testing"/>
+    <parameter name="ServiceName2Par" value="MRI Brain"/>
+    <parameter name="PolicyNoPar" value="8787980"/>
+    <parameter name="ReceivedFromPar" value="Admin"/>
+    <parameter name="PostCodePar" value="987309"/>
+    <parameter name="PersonalFaxpar" value="756756"/>
+    <parameter name="ServiceNamePar" value="CT Brain"/>
+    <parameter name="ExpiryDatePar" value="01/01/2025"/>
+    <parameter name="PatientNotesPar" value="Notes"/>
+    <parameter name="MotherNamePar" value="SHOBHA"/>
+    <parameter name="FullNamePar" value="FEDRAL"/>
+    <parameter name="ContactNamePar" value="MANISH"/>
+    <parameter name="SecondaryIdNumberPar" value="AD9878978"/>
+    <parameter name="PrimaryIdNumberPar" value="FD89788989"/>
+    <parameter name="CoverageAmountPar" value="10000"/>
+    <parameter name="ResidentialAddressPar" value="Pune"/>
+    <parameter name="GLAmountPar" value="10000"/>
+    <classes>
+      <class name="BillingTest.OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test">
+        <methods>
+          <include name="FailedScreenShot"/>
+          <include name="afterTest"/>
+          <include name="TC_02_OP_DebitNote_OPBill_With_Discount_Against_Company_Payer" invocation-numbers="0"/>
+          <include name="startBrowser"/>
+        </methods>
+      </class> <!-- BillingTest.OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test -->
+    </classes>
+  </test> <!-- OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test(failed) -->
+</suite> <!-- Failed suite [OP_DebitNote_OPBill_With_Discount_Against_Company_Payer_Test] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OPBill_Company_Invoicing_Approval_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OPBill_Company_Invoicing_Approval_Test">
+
+<parameter name="PrimaryIdNumberPar" value="TMD8989090"/>
+<parameter name="ExparyDatePar" value="01/01/2036"/>
+<parameter name="SecondaryIdNumberPar" value="CS78789009"/>
+<parameter name="SecondaryExparyDatePar" value="01/01/2036"/>
+<parameter name="FullNamePar" value="Timothy"/>
+<parameter name="DateOfBirthPar" value="05/05/1994"/>
+<parameter name="MotherNamePar" value="SHOBHA"/>
+<parameter name="PatientNotesPar" value="Notes"/>
+<parameter name="ResidentialAddressPar" value="Pune"/>
+<parameter name="PostCodePar" value="987309"/>
+<parameter name="MobileNumberPar" value="98765756546"/>
+<parameter name="Emailpar" value="Patilaksh1994@gmail.com"/>
+<parameter name="PersonalFaxpar" value="756756"/>
+<parameter name="WorkFaxpar" value="456464564"/>
+<parameter name="WorkContactNopar" value="20137898569"/>
+<parameter name="HomeContactNopar" value="2047898569"/>
+
+<parameter name="PolicyNoPar" value="987897987"/>
+<parameter name="HolderNamePar" value="SONYA"/>
+<parameter name="CustomerNamePar" value="BABALU"/>
+<parameter name="GLRefNOPar" value="98798478"/>
+<parameter name="ExpiryDatePar" value="01/01/2036"/>
+<parameter name="GLAmountPar" value="10000"/>
+<parameter name="CoverageAmountPar" value="10000"/>
+<parameter name="ContactNamePar" value="Akshay"/>
+<parameter name="DesignationPar" value="QA"/>
+<parameter name="ContactNoPar" value="9503238070"/>
+<parameter name="GLRemarksPar" value="Testing"/>
+<parameter name="ServiceNamePar" value="CT Brain"/>
+<parameter name="ServiceName2Par" value="MRI Brain"/>
+
+
+<classes>
+<class name="BillingTest.OPBill_Company_Invoicing_Approval_Test">
+</class>
+</classes>
+</test>
+</suite>

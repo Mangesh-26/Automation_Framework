@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OPCharge_Advance_Search_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="OPCharge_Advance_Search_Test(failed)">
+    <parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+    <parameter name="QuickPatientNotesPar" value="Feeling well"/>
+    <parameter name="DOBSearchPar" value="16/01/1997"/>
+    <parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+    <parameter name="MobileSearchPar" value="98765434567"/>
+    <parameter name="IdentificationPar" value="MR850008"/>
+    <parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+    <parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+    <parameter name="QuickExparyDatePar" value="12/10/2024"/>
+    <parameter name="PatientNamePar" value="Margaret"/>
+    <parameter name="QuickMobileNumberPar" value="98765434567"/>
+    <parameter name="QuickPrimaryIdNumberPar" value="KI9879797"/>
+    <parameter name="QuickDateOfBirthPar" value="16/01/1997"/>
+    <parameter name="QuickFullNamePar" value="KISNA"/>
+    <classes>
+      <class name="BillingTest.OPCharge_Advance_Search_Test">
+        <methods>
+          <include name="TC_02_OPCharge_Screen"/>
+          <include name="TC_01_Verify_Login"/>
+          <include name="startBrowser"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- BillingTest.OPCharge_Advance_Search_Test -->
+    </classes>
+  </test> <!-- OPCharge_Advance_Search_Test(failed) -->
+</suite> <!-- Failed suite [OPCharge_Advance_Search_Test] -->

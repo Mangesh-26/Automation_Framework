@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OP_Company_Deposit_Singal_Payment_Method_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Company_Deposit_Singal_Payment_Method_Test">
+<parameter name="DepositAmountPar" value="3000"/>
+<parameter name="DepositRemarksPar" value="Testing"/>
+<parameter name="CashAmountPar" value="1000"/>
+<parameter name="ChequeAmountPar" value="1000"/>
+<parameter name="ChequeNOPar" value="98799008"/>
+<parameter name="BatchNoPar" value="98797709"/>
+<parameter name="CardAmountPar" value="1000"/>
+<parameter name="CardNoPar" value="908798798"/>
+<parameter name="ApprovalCodePar" value="8979879"/>
+
+<classes>
+<class name="BillingTest.OP_Company_Deposit_Multiple_Payment_Method_Test">
+</class>
+</classes>
+</test>
+</suite>

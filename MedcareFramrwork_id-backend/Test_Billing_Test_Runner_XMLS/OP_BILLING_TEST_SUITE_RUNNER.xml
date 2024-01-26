@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_OP_BILLING_03_TEST_SUITE">
+
+ <suite-files>
+                 
+     
+        <suite-file path="Add_charge_Final_Bill_Multiple_Payment_Method_Full_settlement.xml"/>
+        <suite-file path="Add_charges_Final_Bill_Partial_Settlement.xml"/>
+        <suite-file path="Billing_Summary_Advanced_search.xml"/>
+        <suite-file path="Credit_Note_Advance_Search.xml"/>
+        <suite-file path="Credit_Note_Against_Discount_All_service_Full_settlement.xml"/>
+        <suite-file path="Credit_Note_Against_Discount_All_service_Partial_settlement.xml"/>
+        <suite-file path="Credit_Note_Against_Discount_Single_service_Full_settlement.xml"/>
+        <suite-file path="Credit_Note_Against_Service_All_service_Full_settlement.xml"/>
+        <suite-file path="Credit_Note_Against_Service_Single_service_Full_settlement.xml"/>
+        <suite-file path="Credit_Note_Against_Service_Single_service_Partial_settlement.xml"/>
+        <suite-file path="Debit_Note_Add_Charges_Save_Delete_Charges.xml"/>
+        <suite-file path="Debit_Note_Advanced_search.xml"/>  
+        <suite-file path="Debit_Note_Final_Bill_Partial_Settlement.xml"/>
+        <suite-file path="Debit_Note_with_discount_Section_Final_Bill_Partial_Settlement.xml"/>
+        <suite-file path="Debit_Note_with_Grid_discount_Final_Bill_Full_Settlement.xml"/>
+        <suite-file path="Debit_Note_with_Group_discount_final_Bill_Full_Settlement.xml"/>
+        <suite-file path="Existing_Patient_OP_FinalBill_Save_Self.xml"/>
+        <suite-file path="Existing_Patient_OPCharge_Save_Self.xml"/>
+        <suite-file path="Existing_Patient_OPCharge_WithDiscount_Save_Self.xml"/>
+        <suite-file path="Existing_Patient_OPCharge_WithGroup_Discount_Save_Self.xml"/>
+        <suite-file path="GL_Approval_OP_Bill_Add_Charges_Generate_Final_Bill.xml"/>
+        <suite-file path="GL_Approval_OP_BillSearch_patient_Add_charge_Add_discount_Final_Bill.xml"/>
+        <suite-file path="New_Registration_Encounter_creation_Debit_Note_Oustanding_Invoice.xml"/>
+        <suite-file path="OP_Bill_Company_Invoice_Approve.xml"/> 
+        <suite-file path="OP_Bill_Final_Bill_Full_Settlement_Billing_Summary_Invoice_View_Bill.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Full_Settlement_Billing_Summary_Invoice_View_history.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Full_Settlement_Debit_Note_Billing_Summary_Debit_Note_List_Cancel_DN.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Full_Settlement_Debit_Note_Billing_Summary_Debit_Note_List_View_Details.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Outstanding_Billing_Summary_Invoice_Cancel_Bill.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Outstanding_Billing_Summary_Invoice_SendMail.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Outstanding_Billing_Summary_Invoice_Settle.xml"/>
+        <suite-file path="OP_Bill_Final_Bill_Partial_Settlement_Settled.xml"/>
+        <suite-file path="OP_Charge_Conversion_PayerToSelf.xml"/>
+        <suite-file path="OP_Charge_Conversion_SelfToPayer.xml"/>
+        <suite-file path="OP_Company_Deposit_Mutiple_Payment.xml"/>
+        <suite-file path="OP_Company_Deposit_Singal_Payment.xml"/> 
+        <suite-file path="OP_Company_Full_Refund.xml"/>
+        <suite-file path="OP_Company_Partial_Refund.xml"/>
+        <suite-file path="OP_Debit_Note_Against_Company_Payer.xml"/>
+        <suite-file path="OP_FinalBill_Partial_Settlement_.xml"/>
+        <suite-file path="OP_GLApproval_Status_Approved.xml"/>
+        <suite-file path="OP_GLApproval_Status_Declined.xml"/>
+        <suite-file path="OP_GLApproval_Status_Pending.xml"/>
+        <suite-file path="OP_Patient_Deposit_Self_Against_Account.xml"/>
+        <suite-file path="OP_Patient_Deposit_Self_Multiple_Payment_Against_Account.xml"/>
+        <suite-file path="OP_Patient_Deposit_Self_Multiple_Payment_Against_Patient.xml"/>
+        <suite-file path="OP_Patient_Deposit_Self.xml"/>
+        <suite-file path="OP_Patient_Refund_Against_Account_Self.xml"/> 
+        <suite-file path="OP_Patient_Refund_Self.xml"/>
+        <suite-file path="OP_Patient_Self_Deposit_Debit_Note_Full_Consume.xml"/>
+        <suite-file path="OP_Patient_Self_Deposit_Debit_Note_Partial_Consume.xml"/>
+        <suite-file path="OP_Patient_Self_Deposit_Full_Consume.xml"/>
+        <suite-file path="OP_Patient_Self_Deposit_Partial_Consume.xml"/>
+        <suite-file path="OPBill_Debit_Note_Against_Company_Payer.xml"/>
+        <suite-file path="OPBill_Debit_Note_With_Discount_Against_Company_Payer.xml"/>
+        <suite-file path="OPBill_FinalBill_FullSettlement_Self.xml"/>
+        <suite-file path="OPBill_FinalBill_Multiple_Payment_Method_Self.xml"/>
+        <suite-file path="OPBill_FinalBill_Outstanding_Self.xml"/>
+        <suite-file path="OPCharge_Debit_Note_Against_Company_Payer.xml"/>
+        <suite-file path="OPCharge_Save_Delete_Charges_Self.xml"/>
+        <suite-file path="OPCharge_Save_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Discount_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Group_Discount_Delete_Charges_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Group_Discount_Self.xml"/>
+        <suite-file path="Reminder_letter_Pending_Aging_Due_All_Dispatch.xml"/>
+        <suite-file path="Search_Patient_Add_charge_Add_Discount_Against_Com_Payer_Save.xml"/>
+        <suite-file path="Search_patient_Add_charge_Against_Com_Payer_Save.xml"/>
+ 
+
+
+
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+
+    </suite-files>
+    
+
+</suite>

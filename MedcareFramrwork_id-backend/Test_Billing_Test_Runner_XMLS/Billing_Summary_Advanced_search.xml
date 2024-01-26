@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Billing_Summary_Advanced_search">
+<parameter name="Uesrid" value="10931994"/>
+<test name="Billing_Summary_Advanced_search">
+<classes>
+<class name="BillingTest.Billing_Summary_Advanced_search">
+</class>
+</classes>
+</test>
+</suite>

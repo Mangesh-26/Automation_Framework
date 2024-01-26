@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_IPD_BILLING_MODULE_03_TEST_SUITE">
+
+ <suite-files>  
+	               
+  <suite-file path="Admission_Request_AdmissionForm_save_Admission_IP_charge_Save_Charges_IP_Bill_Full_SettlementOutstanding.xml"/>
+  <suite-file path="Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Discount.xml"/>
+  <suite-file path="Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Apply_Group_Discount.xml"/>
+  <suite-file path="Admission_Request_Insurance_Admission_Form_save_Admission_GL_Approval_IP_charge_Save_Charges_IP_Bill_Save.xml"/>
+  <suite-file path="AdmissionRequest_AdmissionForm_saveAdmission_IP_charge_IP_Bill_Full Settlement_Cash.xml"/>
+ <!-- <suite-file path="AdmissionRequest_Insurance_GLApproval_AdmissionForm_IPcharge.xml"/>--> 
+  <!-- <suite-file path="ADTAdmissionForm_Convert_Charges_OP_To_IP.xml"/>-->
+ <!--<suite-file path="ADTAdmissionForm_OP_TO_IP_NO_Convert_Charges.xml"/> --> 
+  <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyDiscount_FullSettlement.xml"/>
+  <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyGroupDiscount_FullSettlement.xml"/>
+  <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement.xml"/>
+  <suite-file path="ADTRequested_save_Admission_Deposit_Add_against_Account_Save_Refund_Test.xml"/>
+  <suite-file path="ADTRequested_save_Admission_Deposit_Add_against_Account_Test.xml"/>
+  <suite-file path="ADTRequested_save_Admission_Deposit_Add_against_patient_Save_Refund.xml"/>
+  <suite-file path="ADTRequested_save_Admission_Deposit_Add_against_patient_Save_Test.xml"/>
+  <suite-file path="Billing_Company_Deposit_Cash_Save_Test.xml"/>
+  <suite-file path="Billing_Company_Deposit_DebitCard_Save_Test.xml"/>
+  <suite-file path="IP_BILL_Advanced_Search_Test.xml"/>
+  <suite-file path="IP_Charge_Advanced_Search_Test.xml"/>
+  <suite-file path="IPBILL_For_Self.xml"/>
+  <suite-file path="IPCharges_for_Self_Payer.xml"/>
+  <suite-file path="OP_Patient_EncounterADT_OP_to_IP_convert_IP_Charges_IPBill_PartialSettlementTest.xml"/>
+  <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Bill_OutStanding_Test.xml"/>
+  <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Bill_Test.xml"/>
+  <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Charges_Test.xml"/>
+  <suite-file path="OP_Reg_InsuranceADT_OP_to_IP_convert_save_admission_GL_Approval_IP_charge_IPD_Bill_Apply_Discount.xml"/>
+  <suite-file path="OP_Reg_InsuranceADT_OP_to_IP_convert_save_admission_GL_Approval_IP_charge_IPD_Bill_Apply_Group_Discount.xml"/>
+  <suite-file path="OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Account_Refund_AMT.xml"/>
+  <suite-file path="OPD_Reg_Encounter_ADT_OP_TO_IP_COnvert_Add_Deposit_Add_Against_Patient_Refund_AMT.xml"/>
+  <suite-file path="OPD_Reg_Encounter_ADT_OP_TO_IP_Deposit_Add_Against_Account.xml"/>
+  <suite-file path="OPD_Reg_Encounter_ADT_OP_TO_IP_Deposit_Add_Against_Patient.xml"/>
+ <!-- <suite-file path="OPD_Registration_Form.xml"/>--> 
+  <suite-file path="OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPBILL_Save.xml"/>
+  <suite-file path="OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPcharge_IPD_BILL.xml"/>
+  <suite-file path="OPReg_Encounter_Insurance_ADT_OPtoIPconvert_SaveAdmission_GLApproval_IPcharge_Save.xml"/>
+  
+   <!-- <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+
+    </suite-files>
+    
+
+</suite>

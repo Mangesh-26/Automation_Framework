@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OP_Charge_Conversion_PayerToSelf_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Charge_Conversion_PayerToSelf_Test">
+<parameter name="QuickPrimaryIdNumberPar" value="OP8990909"/>
+<parameter name="QuickExparyDatePar" value="01/01/2036"/>
+<parameter name="QuickFullNamePar" value="Rex"/>
+<parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+<parameter name="QuickMobileNumberPar" value="8149596832"/>
+<parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+<parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+<parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+<parameter name="QuickPatientNotesPar" value="Feeling well"/>
+<parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+
+<parameter name="ServiceNamePar" value="CT Brain"/>
+<parameter name="ServiceName2Par" value="MRI Brain"/>
+<classes>
+<class name="BillingTest.OP_Charge_Conversion_PayerToSelf_Test">
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="MEDCARE_BILLING_MODULE_03_TEST_SUITE">
+
+ <suite-files>
+                     
+  <!-- ************************Akshay************************************-->
+        <suite-file path="Existing_Patient_OPBill_FinalBill_Self_Test"/>
+        <suite-file path="Existing_Patient_OPCharge_Save_Self.xml"/>
+        <suite-file path="Existing_Patient_OPCharge_WithDiscount_Save_Self.xml"/>
+        <suite-file path="Existing_Patient_OPCharge_WithGroup_Discount_Save_Self.xml"/>
+        <suite-file path="GLApproval_OP.xml"/>
+        <suite-file path="NewRegistartion_OPCharge_Delete_Save.xml"/>
+        <suite-file path="NewRegistartion_OPCharge_Save.xml"/>
+        <suite-file path="NewRegistration_OPBill_FinalBill_Outstanding.xml"/>
+        <suite-file path="NewRegistration_OPBill_FinalBill.xml"/>
+        <suite-file path="OP_FinalBill_Partial_Settlement_.xml"/>
+        <suite-file path="OP_Patient_Deposit_Self.xml"/>
+        <suite-file path="OP_Patient_Refund_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Discount_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Group_Discount_Delete_Charges_Self.xml"/>
+        <suite-file path="OPCharge_Save_With_Group_Discount_Self.xml"/>
+        
+   <!-- ************************Kamlakar*****************************************-->
+        <suite-file path="Add_charge_Discount_Final_Bill_Multiple_Payment_Method_Full_settlement.xml"/>
+        <suite-file path="Add_charge_Final_Bill_Multiple_Payment_Method_Full_settlement.xml"/>
+        <suite-file path="Add_charges_Final_Bill_Partial_Settlement.xml"/>
+        <suite-file path="Debit_Note_Final_Bill_Partial_Settlement.xml"/>
+        <suite-file path="Debit_Note_with_Grid_discount_Final_Bill_Full_Settlement.xml"/>
+        <suite-file path="Debit_Note_with_Group_discount_final_Bill_Full_Settlement.xml"/>
+        <suite-file path="New_Registration_Encounter_creation_Debit_Note_Oustanding_Invoice.xml"/>
+        <suite-file path="Reminder_Letter_Pending_Aging_Due_30_60_Dispatch.xml"/>
+        <suite-file path="Reminder_letter_Pending_Aging_Due_All_Dispatch.xml"/>
+        
+    <!-- *************************Manisha************************************************-->
+        <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyDiscount_FullSettlement.xml"/>
+        <suite-file path="ADTRequest_AdmissionForm_saveAdmission_IPBill_AddCharges_ApplyGroupDiscount_FullSettlement.xml"/>
+        <suite-file path="AdmissionRequest_AdmissionForm_SaveAdmission_IP_Bill_Partial_Settlement.xml"/>
+        <suite-file path="AdmissionRequest_AdmissionForm_saveAdmission_IP_charge_IP_Bill_Full Settlement_Cash.xml"/>
+        <suite-file path="AdmissionRequest_AdmissionForm_saveAdmission_IP_charge_SaveCharges_IP_Bill_Full SettlementOutstanding.xml"/>
+      <!--   <suite-file path="AdmissionRequest_Insurance_GLApproval_AdmissionForm_IPcharge.xml"/>-->
+        <suite-file path="IP_Bill_Advanced_Search.xml"/>
+        <suite-file path="IP_Bill_For_Self_Payer.xml"/>
+        <suite-file path="IP_Charge_Advanced_Search.xml"/>
+        <suite-file path="IP_Charges_For_Self_Payer.xml"/>
+        <suite-file path="OP_Charge_Conversion_PayerToSelf.xml"/>
+        <suite-file path="OP_Charge_Conversion_SelfToPayer.xml"/>
+        
+        <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Charges_Test"/>
+        <suite-file path="OP_patient_Registration_With_Encounter_ADT_OP_IP_Convert_IPD_Bill_Outstanding.xml"/>
+        <suite-file path="OP_Patient_Registration_EncounterCreationADT_OP_to_IP_convert_IP_Bill_Test"/> 
+        <suite-file path="OPCharge_Advance_Search.xml"/>
+                            
+
+        <!--        <suite-file path="testng-seleniumgrid-juiceshop.xml"/>-->
+
+
+    </suite-files>
+    
+
+</suite>

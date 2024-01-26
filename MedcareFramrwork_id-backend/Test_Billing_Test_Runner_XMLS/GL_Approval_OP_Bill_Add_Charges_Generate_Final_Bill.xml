@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GL_Approval_OP_Bill_Add_Charges_Generate_Final_Bill">
+<parameter name="Uesrid" value="11092023"/>
+<test name="GL_Approval_OP_Bill_Add_Charges_Generate_Final_Bill"> 	
+<parameter name="PrimaryIdNumber12" value="1"/>
+<parameter name="QuickExparyDatePar" value="12/10/2024"/>
+<parameter name="QuickFullNamePar" value="Priyal"/>
+<parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+<parameter name="QuickMobileNumberPar" value="8149596832"/>
+<parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+<parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+<parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+<parameter name="QuickPatientNotesPar" value="Feeling well"/>
+<parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+<parameter name="ServiceNamePar" value="CT Brain"/>
+<parameter name="ServiceName2Par" value="MRI Brain"/>
+<parameter name="ReceivedFromPar" value="Admin"/>
+<parameter name="IdentificationNoPar" value="8980909"/>
+<parameter name="RemarksPar" value="Testing"/>
+<parameter name="PolicyNoPar" value="987897987"/>
+<parameter name="PolicyDatePar" value="01/12/2023"/>
+<parameter name="HolderNamePar" value="SONYA"/>
+<parameter name="CustomerNamePar" value="BABALU"/>
+<parameter name="GLRefNOPar" value="98798478"/>
+<parameter name="GLDatePar" value="06/12/2023"/>
+<parameter name="ExpiryDatePar" value="01/01/2024"/>
+<parameter name="GLAmountPar" value="10000"/>
+<parameter name="CoverageAmountPar" value="10000"/>
+<parameter name="ContactNamePar" value="Akshay"/>
+<parameter name="DesignationPar" value="QA"/>
+<parameter name="ContactNoPar" value="9503238070"/>
+<parameter name="GLRemarksPar" value="Testing"/>
+<classes>
+<class name="BillingTest.GL_Approval_OP_Bill_Add_Charges_Generate_Final_Bill">	
+</class>
+</classes>
+</test>
+</suite>

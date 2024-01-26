@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Patient_Test">
+<parameter name="Uesrid" value="10931994"/>
+<test name="OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Patient_Test">
+<parameter name="QuickPrimaryIdNumberPar" value="AX8989076"/>
+<parameter name="QuickExparyDatePar" value="01/01/2036"/>
+<parameter name="QuickFullNamePar" value="Alexander"/>
+<parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+<parameter name="QuickMobileNumberPar" value="8149596832"/>
+<parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+<parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+<parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+<parameter name="QuickPatientNotesPar" value="Feeling well"/>
+<parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+<parameter name="DepositAmountPar" value="5000"/>
+<parameter name="DepositRemarksPar" value="Testing"/>
+<parameter name="CashPar" value="3000"/>
+<parameter name="ChequeAmountPar" value="1000"/>
+<parameter name="ChequeNumberPar" value="8937989798"/>
+<parameter name="BatchNoPar" value="8498089776"/>
+<parameter name="CardAmountPar" value="1000"/>
+<parameter name="CardNumberPar" value="987970979"/>
+<parameter name="ApprovalCodePar" value="893786"/>
+<parameter name="ReceivedFromPar" value="Admin"/>
+<parameter name="IDNoPar" value="98739790"/>
+<parameter name="PaymentRemarksPar" value="Testing"/>
+
+<classes>
+<class name="BillingTest.OP_Patient_Self_Deposit_With_Multiple_Payment_Against_Patient_Test">
+</class>
+</classes>
+</test>
+</suite>

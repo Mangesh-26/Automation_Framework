@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OPBill_FinalBill_Multiple_Payment_Method_Self_Test]" guice-stage="DEVELOPMENT">
+  <parameter name="Uesrid" value="10931994"/>
+  <test thread-count="5" name="OPBill_FinalBill_Multiple_Payment_Method_Self_Test(failed)">
+    <parameter name="QuickAddNotesPar" value="Patient has Blood suger"/>
+    <parameter name="QuickPatientNotesPar" value="Feeling well"/>
+    <parameter name="QuickEncounterNotesPar" value="Patient need wheel chair"/>
+    <parameter name="ReceivedFromPar" value="Admin"/>
+    <parameter name="ServiceNamePar" value="CT Brain"/>
+    <parameter name="RemarksPar" value="Testing"/>
+    <parameter name="QuickEncounterRemarksPar" value="Patient has favour not felling well"/>
+    <parameter name="QuickReferralRemarksPar" value="Overall patient condition is fine"/>
+    <parameter name="QuickExparyDatePar" value="01/01/2036"/>
+    <parameter name="IdentificationNoPar" value="8980909"/>
+    <parameter name="QuickMobileNumberPar" value="8149596832"/>
+    <parameter name="QuickPrimaryIdNumberPar" value="DY578986"/>
+    <parameter name="QuickDateOfBirthPar" value="12/02/1991"/>
+    <parameter name="ServiceName2Par" value="MRI Brain"/>
+    <parameter name="QuickFullNamePar" value="Dylan"/>
+    <classes>
+      <class name="BillingTest.OPBill_FinalBill_Multiple_Payment_Method_Self_Test">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TC_02_OP_Bill_Screen_Multiple_Full_Settlement" invocation-numbers="0"/>
+          <include name="startBrowser"/>
+          <include name="FailedScreenShot"/>
+        </methods>
+      </class> <!-- BillingTest.OPBill_FinalBill_Multiple_Payment_Method_Self_Test -->
+    </classes>
+  </test> <!-- OPBill_FinalBill_Multiple_Payment_Method_Self_Test(failed) -->
+</suite> <!-- Failed suite [OPBill_FinalBill_Multiple_Payment_Method_Self_Test] -->

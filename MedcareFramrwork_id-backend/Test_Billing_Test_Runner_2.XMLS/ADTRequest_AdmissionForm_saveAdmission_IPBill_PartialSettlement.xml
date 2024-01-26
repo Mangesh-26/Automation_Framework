@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement">
+<parameter name="Uesrid" value="11092023"/>
+<test name="ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement">
+<parameter name="PriNumberPar" value="8498"/>
+<parameter name="PatientNamePar" value="Aisha"/>
+<parameter name="ExpiryDatePar" value="01/10/2035"/>
+<parameter name="DOBPar" value="05/07/1994"/>
+<parameter name="MobilePar" value="9503238070"/>
+<parameter name="EmailPar" value="medcare@hatiintl.com"/>
+<parameter name="DOAPar" value="03/11/2023"/>
+<parameter name="LengthPar" value="3"/>
+<parameter name="NotesPar" value="Testing"/>
+<parameter name="RemarksPar" value="Testing"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="LengthOfStayPar" value="2"/>
+<parameter name="AdmittingDiagPar" value="Admitting Diagnosis testing"/>
+<parameter name="AddNotesPar" value="Require Urgent Oxyzen"/>
+<parameter name="PatientNotesPar" value="Blood require"/>
+<parameter name="AdmissionRemarksPar" value="All Done good"/>
+<parameter name="BillEstimationPar" value="1234"/>
+<parameter name="ReferralRemarksPar" value="Overall good"/>
+<parameter name="NamePar" value="Sandra"/>
+<parameter name="IdentificationNOPar" value="1236540"/>
+<parameter name="PhoneNumberPar" value="9921084463"/>
+<parameter name="AddressPar" value="Pune"/>
+<parameter name="ZipCodePar" value="799098"/>
+<classes>
+<class name="BillingTest_2.ADTRequest_AdmissionForm_saveAdmission_IPBill_PartialSettlement">
+</class>
+</classes>
+</test>
+</suite>
